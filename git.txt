@@ -1,3 +1,8 @@
 git init
 git status (para ver se os arquivos estão atualizados)
 git add "arquivo" (para add o arquivo no controle de ação)
+git add .
+git commit -m "mensagem"
+git remote add origin "link"
+git push --set-upstream origin master
+

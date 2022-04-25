@@ -13,3 +13,22 @@ git push --set-upstream origin master (defenir para qual branch enviar)
 -git status
 -git commit -m "mensagem"
 -git push
+
+-git reflog (ver o historico, mostra o id das versões ateriores)
+-git reset --hard id (voltar para uma versão anterior)
+
+
+
+
+
+
+
+A
+A
+A
+A
+A
+A
+
+
+

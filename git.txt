@@ -15,7 +15,19 @@ git push --set-upstream origin master (defenir para qual branch enviar)
 -git push
 
 -git reflog (ver o historico, mostra o id das versões ateriores)
--git reset --hard id (voltar para uma versão anterior)
+-git reset --hard id (voltar para uma versão anterior, mas somente no pc)
+
+-branchs-
+-git branch (mostra quais as branchs disponiveis)
+-git branch <nome> (criar uma branch)
+-git branch (a branch marcada com * e verde é a branch do momento)
+-git checkout <nome-branch> (trocar para outra branch)
+-depois que trocou de branch-
+git status
+git add .
+git commit -m "msg"
+git push
+git push --set-upstream origin <nome-branch>
 
 
 
@@ -23,12 +35,11 @@ git push --set-upstream origin master (defenir para qual branch enviar)
 
 
 
-A
-A
-A
-A
-A
-A
+
+
+
+
+
 
 
 

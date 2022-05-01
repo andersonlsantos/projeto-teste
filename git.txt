@@ -20,6 +20,7 @@ git push --set-upstream origin master (defenir para qual branch enviar)
 -branchs-
 -git branch (mostra quais as branchs disponiveis)
 -git branch <nome> (criar uma branch)
+-git checkout -b <new-nome-branch> <old-nome-branch> (criar uma nova branch baseada em uma branch existente)
 -git branch (a branch marcada com * e verde é a branch do momento)
 -git checkout <nome-branch> (trocar para outra branch)
 -depois que trocou de branch-
@@ -29,7 +30,26 @@ git commit -m "msg"
 git push
 git push --set-upstream origin <nome-branch>
 
+-unir o codigo de uma branch com o codigo de outra branch-
+git branch
+git checkout <branch> (mudar para a branch final que o codigo vai ser unido)
+git marge <branch> (nome da branch que o codigo vai ser copiado para a branch final)
+git push
+(antes de fazer o marge de uma branch para outra branch certifique que ja tenha feito o push do codigo mais atual, para isso execute o comando git pull)
 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

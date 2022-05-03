@@ -37,29 +37,7 @@ git marge <branch> (nome da branch que o codigo vai ser copiado para a branch fi
 git push
 (antes de fazer o marge de uma branch para outra branch certifique que ja tenha feito o push do codigo mais atual, para isso execute o comando git pull)
 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
+-Pull request um marge demogrático-
+(só vai ser possivel unir um codigo de uma branch com outra branch se algum programador permitir)
 
 
